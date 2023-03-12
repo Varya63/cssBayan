@@ -1,3 +1,4 @@
+
 * {
     margin: 0%;
     padding: 0%;
@@ -36,4 +37,28 @@ div img {
     color: black;
 }
 
+/* для mobile 320x568*/
+@media (min-width:120em) {
+    #all p{
+     font-size: xx-large;
+    }
+}
+
+/* для mobile 320x568*/
+@media (min-width:21em) and (max-width:52em) {
+    #all p{
+     font-size: x-large;
+    }
+}
+
+/* для mobile 320x568*/
+@media (max-width:20em) {
+    #all p{
+     font-size: small;
+    }
+    .mem:hover img {
+        width: 40%;
+        height: 40%;
+    }
+}
 
