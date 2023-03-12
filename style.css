@@ -1,0 +1,64 @@
+
+* {
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(254, 252, 232);
+}
+
+h1 {
+    font-size: xx-large;
+    font-family: Verdana, sans-serif;
+    margin: 5% 13% 0 13%; 
+    color: darkkhaki;
+}
+
+.mem, hr {
+    margin: 0 13% 0 13%;
+    font-size: large;
+    font-family: Verdana, sans-serif;
+    color: blueviolet;
+}
+
+div img {
+    width: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+.mem:hover img {
+    width: 20%;
+    height: 20%;
+    visibility: visible;
+    transition: 1s;
+}
+
+#all:hover p{
+    cursor: pointer; 
+    color: black;
+}
+
+/* для mobile 320x568*/
+@media (min-width:120em) {
+    #all p{
+     font-size: xx-large;
+    }
+}
+
+/* для mobile 320x568*/
+@media (min-width:21em) and (max-width:52em) {
+    #all p{
+     font-size: x-large;
+    }
+}
+
+/* для mobile 320x568*/
+@media (max-width:20em) {
+    #all p{
+     font-size: small;
+    }
+    .mem:hover img {
+        width: 40%;
+        height: 40%;
+    }
+}
+
