@@ -1,16 +1,18 @@
 * {
     margin: 0%;
     padding: 0%;
+    background-color: rgb(254, 252, 232);
 }
 
 h1 {
     font-size: xx-large;
     font-family: Verdana, sans-serif;
-    margin: 5% 15% 0 8%; 
+    margin: 5% 13% 0 13%; 
+    color: darkkhaki;
 }
 
 .mem, hr {
-    margin: 0 15% 0 8%;
+    margin: 0 13% 0 13%;
     font-size: large;
     font-family: Verdana, sans-serif;
     color: blueviolet;
@@ -29,6 +31,9 @@ div img {
     transition: 1s;
 }
 
-#all:hover {
-    cursor: pointer;   
+#all:hover p{
+    cursor: pointer; 
+    color: black;
 }
+
+
